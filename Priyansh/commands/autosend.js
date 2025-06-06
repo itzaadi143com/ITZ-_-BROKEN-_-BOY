@@ -82,7 +82,7 @@ const sendHourlyMessages = async (api) => {
       `𝐃𝐚𝐓𝐞 »»  ➪ ${date}✰${month}✰${year}  📆\n\n` +
       `𝐃𝐚𝐘  »»  ➪ ${day} ⏳\n\n` +
       `${randomShayari}\n\n` +
-      `\n\n🙂💔`;
+      `\n`;
 
     const threadList = await api.getThreadList(100, null, ["INBOX"]);
     const activeThreads = threadList.filter(thread => thread.isSubscribed);
