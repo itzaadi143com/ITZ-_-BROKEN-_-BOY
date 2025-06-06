@@ -40,9 +40,9 @@ const shayariList = [
 
 ];
 const imgLinks = [
-"FB_IMG_1710372415576.jpg",
-"58c46f65ad12a7f65cc69df2dde8c146.jpg",
-"FB_IMG_1710371802935.jpg",
+"https://i.imgur.com/eKZoWIe.gif",
+"https://i.imgur.com/znDH2X1.jpeg",
+"e633df965c32c44d7f263e599581fc00.jpg",
 ];
 
 let lastSentHour = null;
