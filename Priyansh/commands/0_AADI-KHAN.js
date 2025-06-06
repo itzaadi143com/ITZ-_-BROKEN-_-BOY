@@ -13,8 +13,8 @@ module.exports.handleEvent = async ({ api, event, Users, Currencies, args, utils
   var name = await Users.getNameUser(event.senderID);
   var { threadID, messageID } = event;
   let react = event.body.toLowerCase();
-  if(react.includes("PARRI") ||
-     react.includes("Pair") || react.includes("ꜛ-ᰔᩚː᭄") || react.includes("pair") ||
+  if(react.includes("@pari") ||
+     react.includes("Pari") || react.includes("ꜛ-ᰔᩚː᭄") || react.includes("pari") ||
 react.includes("PARI") ||
 react.includes("Pẫřı֟፝ı") ||     
 react.includes("@ꜛ-ᰔᩚː᭄乛 Pẫřı֟፝ı Oīīx'ฝꜛ-ᰔᩚː᭄")) {
